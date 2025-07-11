@@ -1,0 +1,26 @@
+/* Hero Section with background image & overlay */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(
+    rgba(0,0,0,0.6), 
+    rgba(0,0,0,0.6)
+  ), url('../img/build.jpeg') center/cover no-repeat;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar.scrolled {
+  background: #000; /* Optional: add JS to change navbar background on scroll */
+}
+
+.feature-image {
+  max-width: 500px;   /* sets a limit for large screens */
+  width: 110%;        /* scales down on small screens */
+  height: ma;       /* keeps aspect ratio */
+  display: block;
+  margin: 0 auto;     /* centers the image if needed */
+  border-radius: 12px;  /* softer corners */
+  object-fit: cover;   
+}
