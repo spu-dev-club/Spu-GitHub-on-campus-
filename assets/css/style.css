@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'bootstrap-icons';
+  src: url("../icons-1.13.1/font/fonts/bootstrap-icons.woff2") format("woff2"),
+       url("../icons-1.13.1/font/fonts/bootstrap-icons.woff") format("woff");
+}
+
 /* Hero Section with background image & overlay */
 .hero-section {
   height: 100vh;
@@ -23,4 +29,12 @@
   margin: 0 auto;     /* centers the image if needed */
   border-radius: 12px;  /* softer corners */
   object-fit: cover;   
+}
+
+section i {
+  transition: transform 0.3s ease;
+}
+
+section i:hover {
+  transform: scale(1.2);
 }
