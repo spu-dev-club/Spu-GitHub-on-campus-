@@ -21,6 +21,7 @@
   background: #000; /* Optional: add JS to change navbar background on scroll */
 }
 
+
 .feature-image {
   max-width: 500px;   /* sets a limit for large screens */
   width: 110%;        /* scales down on small screens */
