@@ -39,3 +39,15 @@ section i {
 section i:hover {
   transform: scale(1.2);
 }
+
+.rounded-circle {
+  object-fit: cover;
+}
+
+.meet-team-icons a {
+  transition: color 0.3s ease;
+}
+
+.meet-team-icons a:hover {
+  color: #0d6efd; /* Bootstrap primary blue or your accent color */
+}
