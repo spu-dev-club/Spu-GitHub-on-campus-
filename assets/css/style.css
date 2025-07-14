@@ -59,3 +59,11 @@ section i:hover {
 .card:hover {
   transform: translateY(-5px);
 }
+.card-img-top {
+  height: 500px; /* adjust height to what looks good for you */
+  object-fit: cover; /* makes sure the image fills the box and crops nicely */
+}
+.rounded-circle {
+  object-fit: cover;
+}
+
