@@ -66,4 +66,82 @@ section i:hover {
 .rounded-circle {
   object-fit: cover;
 }
+.partners-logo img {
+  transition: transform 0.3s ease;
+}
+
+.partners-logo img:hover {
+  transform: scale(1.05);
+}
+
+
+/* ------------------------------------
+   Hero Header for Projects Page
+------------------------------------- */
+.projects-hero {
+  background: url('../img/project3.png') center/cover no-repeat;
+  min-height: 60vh;
+  position: relative;
+}
+
+.projects-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.projects-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* ------------------------------------
+   Showcase Panels Style
+------------------------------------- */
+.project-panel {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-panel .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-panel .content {
+  max-width: 600px;
+}
+
+.project-panel h2 {
+  font-size: 2.5rem;
+}
+
+.project-panel p {
+  font-size: 1.2rem;
+}
+
+.project-panel .btn {
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
+
+.project-panel:hover .overlay {
+  background: rgba(0,0,0,0.4);
+  transition: background 0.3s ease;
+}
+
+.project-panel:hover .btn {
+  background: #fff;
+  color: #000;
+}
 
